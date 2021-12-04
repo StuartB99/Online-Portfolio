@@ -65,7 +65,7 @@ function Home() {
           <div class="gap-20"></div>
 
         </div>
-        <Link class="nav-link" to="/projects" >
+        <Link class="nav-link" to="/Online-Portfolio/projects" >
           <button type="button" class="btn btn-primary btn-lg">View All Projects</button>
         </Link>
 
