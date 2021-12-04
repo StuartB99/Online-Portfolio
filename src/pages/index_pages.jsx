@@ -1,0 +1,11 @@
+export { default as Home } from "./home";
+export { default as Profile } from "./profile";
+export { default as Contact } from "./contact";
+export { default as Projects} from "./projects";
+export { default as FlatlandPage} from "./project_pages/flatland_page";
+export { default as DataVisPage} from "./project_pages/datavis_page";
+export { default as TasPage} from "./project_pages/tas_page";
+export { default as DitePage} from "./project_pages/dite_page";
+export { default as GitRepoInspectPage} from "./project_pages/gitrepo_page";
+export { default as HealthVitalsPage} from "./project_pages/vitals_page";
+export { default as RestaurantJournalPage} from "./project_pages/restaurant_page";
