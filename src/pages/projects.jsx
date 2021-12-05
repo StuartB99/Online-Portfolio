@@ -27,10 +27,26 @@ function Projects() {
             <DivDescription 
               title="DITE Application" 
               description={["Using Flutter and as part of a team of 4, we took over and extended development for the creation of a Flutter application that helps signing Deaf individuals access a Sign Language Interpreter (SLI) by appointment/on-demand and have their health consultation translated via video conferencing or chat. The project is done for the "
-                , <a href="https://www.monash.edu.my/jcsmhs/about/heard/dite">Monash School of Medicine.</a>]}
+                , <a href="https://www.monash.edu.my/jcsmhs/about/heard/dite" target="_blank" rel="noreferrer">Monash School of Medicine.</a>]}
             />
             <div class="gap-20"></div>
             
+            <DivImage img_src={restaurant_journal_icon} img_alt="Restaurnat Journal Icon" img_width="200px" img_height="200px"/> 
+            <DivDescription 
+              title="Personal Android Application (Restaurant Journal) " 
+              description={[ "A personal project of mine. I created an Android application to allow people to record their experiences at restaurants in thier phone fortheir reference. The application is currently avaialble on the "
+                , <a href="https://play.google.com/store/apps/details?id=my.risingcore.restaurant_journal" target="_blank" rel="noreferrer">Google Play Store.</a>]}
+              />
+            <div class="gap-20"></div>
+            
+            <DivImage img_src={distance_detector_icon} img_alt="Social Distancing Detector" img_width="300px" img_height="300px"/> 
+            <DivDescription 
+              title="Social Distancing Detector " 
+              description={[ "A Python system which detects and tracks humans and their distance from each other. It informs the user when social distancing is not being practiced. The system uses the pre-trained YoloV3 object detection model to detect humans. Can be applied on both pictures and videos. The link for this Github repository is   "
+                , <a href="https://github.com/StuartB99/Social-Distancing-Detector" target="_blank" rel="noreferrer">here.</a>]}
+              />
+            <div class="gap-20"></div>
+
             <DivImage img_src={flatland_icon} img_alt="Flatland Icon" img_width="300px"/> 
             <DivDescription 
               title="Flatland Challenge" 
@@ -41,27 +57,11 @@ function Projects() {
             />
             <div class="gap-20"></div>
 
-            <DivImage img_src={restaurant_journal_icon} img_alt="Restaurnat Journal Icon" img_width="200px" img_height="200px"/> 
-            <DivDescription 
-              title="Personal Android Application (Restaurant Journal) " 
-              description={[ "A personal project of mine. I created an Android application to allow people to record their experiences at restaurants in thier phone fortheir reference. The application is currently avaialble on the "
-                , <a href="https://play.google.com/store/apps/details?id=my.risingcore.restaurant_journal">Google Play Store.</a>]}
-              />
-            <div class="gap-20"></div>
-
             <DivImage img_src={vitals_app_icon} img_alt="Health Vitals Monitoring System" img_width="200px" img_height="200px"/> 
             <DivDescription 
               title="Health Vitals Monitoring System " 
               description={[ "In a two person team using Java, created an Android application that allows health practitioners to check on the health vitals of their patients which are constantly updated. The vitals are sourced from the FHIR server. The link for this Github repository is  "
-                , <a href="https://github.com/StuartB99/Patient-Vitals-App">here.</a>]}
-              />
-            <div class="gap-20"></div>
-            
-            <DivImage img_src={distance_detector_icon} img_alt="Social Distancing Detector" img_width="300px" img_height="300px"/> 
-            <DivDescription 
-              title="Social Distancing Detector " 
-              description={[ "A Python system which detects and tracks humans and their distance from each other. It informs the user when social distancing is not being practiced. The system uses the pre-trained YoloV3 object detection model to detect humans. Can be applied on both pictures and videos. The link for this Github repository is   "
-                , <a href="https://github.com/StuartB99/Social-Distancing-Detector">here.</a>]}
+                , <a href="https://github.com/StuartB99/Patient-Vitals-App" target="_blank" rel="noreferrer">here.</a>]}
               />
             <div class="gap-20"></div>
             
@@ -85,7 +85,7 @@ function Projects() {
             <DivDescription 
               title="Data Visualization" 
               description={[ "Using Tableau and D3.js library, I have cleaned, combined and transformed various datasets into data visualizations. The link for one of the data visualation Github repository is"
-                , <a href="https://github.com/StuartB99/Volcanoes-Data-Visualisation">here.</a>]}
+                , <a href="https://github.com/StuartB99/Volcanoes-Data-Visualisation" target="_blank" rel="noreferrer">here.</a>]}
               />
             <div class="gap-20"></div>
 

@@ -6,7 +6,7 @@ function Navigation(props) {
     <div className="navigation">
       <nav class="navbar navbar-expand navbar-dark bg-primary">
         <div class="container">
-          <Link class="navbar-brand" to="/">
+          <Link class="navbar-brand" to="/Online-Portfolio">
             <b>Stuart Boey</b>
           </Link>
 
@@ -14,10 +14,10 @@ function Navigation(props) {
             <ul class="navbar-nav ml-auto">
               <li
                 class={`nav-item  ${
-                  props.location.pathname === "/Online-Portfolio/" ? "active" : ""
+                  props.location.pathname === "/Online-Portfolio" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/Online-Portfolio/">
+                <Link class="nav-link" to="/Online-Portfolio">
                   Home
                   <span class="sr-only">(current)</span>
                 </Link>

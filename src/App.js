@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/Online-Portfolio/" exact component={() => <Home />} />
+          <Route path="/Online-Portfolio" exact component={() => <Home />} />
           <Route path="/Online-Portfolio/projects" exact component={() => <Projects />} />
           <Route path="/Online-Portfolio/profile" exact component={() => <Profile />} />
           <Route path="/Online-Portfolio/contact" exact component={() => <Contact />} />
